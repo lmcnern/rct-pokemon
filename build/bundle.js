@@ -1383,7 +1383,7 @@ module.exports = React.createClass({displayName: "exports",
       React.createElement("section", null, 
         React.createElement("h2", null, " ", this.props.pokemon.name, " "), 
         React.createElement("p", null, React.createElement("strong", null, "PokedexID"), ": ", this.props.pokemon.national_id), 
-        React.createElement("p", null, React.createElement("strong", null, "attack"), ": ", this.props.pokemon.attack, "          ", React.createElement("strong", null, "defense"), ": ", this.props.pokemon.defense), 
+        React.createElement("p", null, React.createElement("strong", null, "attack"), ": ", this.props.pokemon.attack, "          ", React.createElement("strong", null, "special attack"), ": ", this.props.pokemon.sp_atk), 
         React.createElement("p", null, React.createElement("strong", null, "defense"), ": ", this.props.pokemon.defense, "        ", React.createElement("strong", null, "speed"), ": ", this.props.pokemon.speed)
     )
     )
